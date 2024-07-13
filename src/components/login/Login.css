@@ -69,3 +69,10 @@
     background-color: #dddddd35;
   }
 }
+
+@media (max-width: 500px) {
+  .login {
+    display: flex;
+    flex-direction: column;
+  }
+}
